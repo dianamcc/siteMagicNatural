@@ -6,6 +6,7 @@ import './App.css'
 
 import NavBar from './componentes/NavBar'
 import SliderHome from './SliderHome'
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </header>
       <main>
         <SliderHome></SliderHome>
+        <ItemListContainer subTitle={'Catálogo'}></ItemListContainer>
       </main>
     </>
   )
