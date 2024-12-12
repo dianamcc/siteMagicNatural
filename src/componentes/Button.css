@@ -1,0 +1,16 @@
+.btn-buscar{
+    background-color: #ffffff;
+    border-color: #7a8b84;
+    color: #7a8b84;
+}
+
+.btn-buscar:hover{
+    background-color: #7a8b84;
+    border-color: #7a8b84;
+    color: #ffffff;
+}
+  
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
