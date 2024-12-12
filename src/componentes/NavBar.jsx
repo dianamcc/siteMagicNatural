@@ -1,7 +1,7 @@
 //Componentes de funcion
 import { useState } from 'react'
 import Button from './Button'
-import ShopCart from './ShopCart';
+import CartWidget from './CartWidget';
 
 //Componentes de clases
 import './NavBar.css'
@@ -19,7 +19,7 @@ export default function NavBar(props){
       </a>
 
       <div className='d-block d-md-none'>
-          <ShopCart></ShopCart>
+          <CartWidget></CartWidget>
         </div>
 
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@ export default function NavBar(props){
         </ul>
 
         <div className='d-none d-sm-block'>
-          <ShopCart></ShopCart>
+          <CartWidget></CartWidget>
         </div>
 
       </div>

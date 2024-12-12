@@ -5,7 +5,7 @@ import { useState } from 'react'
 import './NavBar.css'
 
 // * PROPS
-export default function ShopCart(props){
+export default function CartWidget(props){
    
     return <div className="shopCart-item">
         <a className="nav-link" href="#">
